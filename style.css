@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+* {
+  font-family: "Tajawal", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  height: 10vh;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+}
+.nav-link,
+.dropdown-item,
+.register {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+#principal-image {
+  height: 300px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  overflow: hidden !important;
+}
+.principal-message {
+  margin: 10px;
+  background-color: #f8f9fa !important;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*  teacher & coaches */
+.contain {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.item {
+  align-items: center;
+  /* background-color: #2f4a99; */
+  color: black;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+/* key facts */
+
+.keys {
+  /* border: 2px solid #2f4a99; */
+  border-radius: 25px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#keyfacts-section {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+}
+.fact {
+  margin: auto;
+}
+
+/*  */
+.navbar {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 100;
+  color: white;
+}
+
+/* @media screen and (max-width: 767px) {
+  #carouselSlider {
+    margin-top: 80px;
+  }
+} */
+/* .carousel-item {
+  height: 100vh;
+  object-fit: cover;
+} */
+
+/*  */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+}
+
+.portfolio h2 {
+  flex-basis: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.card {
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+}
+.card .content {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  bottom: -100px;
+  transition: all 0.7s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100px;
+  background: #111;
+}
+.card .image {
+  z-index: 1;
+  height: 100%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  transform: scale(1.2);
+}
+
+.card:hover .content {
+  bottom: 0px;
+  color: #fff;
+}
+
+.card:hover .image img {
+  transform: scale(1);
+}
+
+.card .content span:first-child {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.card .content span:last-child {
+  font-size: 14px;
+  color: #2f4a99;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+  /* .card .content {
+    bottom: 0;
+  } */
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
+/*  */
+a {
+  text-decoration: none !important;
+}
+
+/*  */
+#contactus-section {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 25px;
+}
+
+#mobile {
+  color: white;
+}
+#navbar_top.scrolled {
+  background-color: #252525 !important;
+  transition: background-color 200ms linear;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#navbar_top.colored {
+  background-color: #252525 !important;
+  transition: background-color 200ms linear;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/*  */
+.dropdown-menu {
+  max-height: 80vh;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  display: none;
+}
+/*  */
+.carousel-item img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sliderContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.start {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  background-color: #2f4a99 !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
